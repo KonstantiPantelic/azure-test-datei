@@ -25,7 +25,7 @@ jobs:
        uses: docker/build-push-action@v3
        with:
          push: true
-         tags: ghcr.io/${{ github.actor }}/hello-world:${{ github.sha }}
+         tags: ghcr.io/${{ github.konstantipantelic }}/hello-world:${{ github.sha }}
          file: ./Dockerfile
 
   deploy:
